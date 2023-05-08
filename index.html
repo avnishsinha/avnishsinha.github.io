@@ -1,255 +1,234 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>GearHead Clicks</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GearHead Clicks</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = "css/style.css">
+</head>
+<body>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+    <nav class="navbar">
+        <div class="hamburger-menu">
+            <button class="hamburger" onclick="toggleMenu()">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </button>
+          </div>
+          
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#insta">Instagram</a></li>
+        </ul>
+        
+      </nav>
+      
+    
+    <!-- header -->
+    <header id = "header" class = "vh-100 flex">
+        <div class = "container">
+            <div class = "header-content">
+                <h1>I'm a <br><span class = "typewrite" data-loop = "yes" data-speed = "100" data-delay = "2000" data-words = '["photographer", "gamer", "front-end developer"]'></span></h1>
+                <h3>AVNISH KUMAR SINHA</h3>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1 id="name-typewriter"></h1>
-   					    <h1 id="tagline-typewriter"></h1>
-						<p>"Exploring tech, gaming, and the world around me, I capture unforgettable moments that tell my unique story." <a href="https://www.instagram.com/avnish_7742/"><br> @avnish_7742</a>.</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+                <ul class = "social-links">
+                    <li>
+                        <a href = "#" class = "flex">
+                            <i class = "fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "https://github.com/avnishsinha" class = "flex">
+                            <i class = "fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "https://www.instagram.com/avnish_7742/" class = "flex">
+                            <i class = "fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "https://www.facebook.com/avnishkumar.sinha.731/" class = "flex">
+                            <i class = "fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Draw my life</a>
-					</header>
+    <!-- main content -->
+    <main>
+        <!-- about section -->
+        <section id = "about" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src = "images/about-pic.jpg" alt = "">
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>About Me</h2>
+                        </div>
+                        <p class = "lead">As a computer science student with a passion for photography,technology, and automotives, I bring a unique prespective to every project I undertake. Whether I'm behind the lense, writing code, or tinkering with enignes, I approach each task with precision, creativity, and a dedication to excellence. My diverse interests and skills allow me to bring a fresh prespective to every challenge and deliveer exceptional results.</p>
+                        <p class = "lead">He's a tech enthusiast who loves to explore the latest trends and developments. When he's not busy tinkering with gadgets and software, he's likely immersed in a virtual world, competing with others online or exploring new gaming titles. Photography is more than just a profession for him - it's a passion that he uses to capture the world around him in new and interesting ways. And as a front end developer, he takes pride in creating beautiful, functional interfaces that enhance the user experience.</p>
+                        <a href = "#work" class = "btn-down">
+                            <i class = "fas fa-chevron-down"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of about section -->
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Behind the Lens</a></li>
-							<li><a href="generic.html">Memories in Motion</a></li>
-							<li><a href="elements.html">Automotive</a></li>
-							<li><a href="elements.html">Tech</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/avnishkumarsinha/" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
-							<li><a href="https://www.facebook.com/avnishkumar.sinha.731/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="https://www.instagram.com/avnish_7742/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="https://github.com/avnishsinha" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+        <!-- work section -->
+        <section id = "work" class = "vh-100 flex py-7">
+            <div class = "container">
+                <div class = "work-content">
+                    <div class = "title">
+                        <h2>what am i doing?</h2>
+                    </div>
+                    <ul class = "work-top grid">
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> In tech, I love exploring the latest trends and advancements.</li>
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> In gaming, I find joy in exploring virtual worlds and competing online.</li>
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> In photography, I capture the world around me in new and interesting ways.</li>
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> In front end dev, I create beautiful, functional interfaces.</li>
+                    </ul>
 
-				<!-- Main -->
-					<div id="main">
+                    <div class = "work-bottom grid">
+                        <div>
+                            <span class = "icon"><img src = "images/wildlife-icon.png"></span>
+                            <h3>Photography</h3>
+                        </div>
+                        <div>
+                            <span class = "icon"><img src = "images/portrait-icon.png"></span>
+                            <h3>Tech</h3>
+                        </div>
+                        <div>
+                            <span class = "icon"><img src = "images/landscape-icon.png"></span>
+                            <h3>Cars</h3>
+                        </div>
+                        <div>
+                            <span class = "icon"><img src = "images/family-icon.png"></span>
+                            <h3>Front-end Development</h3>
+                        </div>
+                    </div>
+                    <a href = "#portfolio" class = "btn-down btn-down-white">
+                        <i class = "fas fa-chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- end of work section -->
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<span class="date"> About Me </span>
-									<h2><a href="#">I am a <br />
-										Techie</a></h2>
-									<p>As a computer science student with a passion for photography,technology, and automotives,
-										I bring a unique prespective to every project I undertake. Whether I'm behind the lense,
-										writing code, or tinkering with enignes, I approach each task with precision, creativity,
-										and a dedication to excellence. My diverse interests and skills allow me to bring a fresh
-										prespective to every challenge and deliveer exceptional results.
-									</p>
-								</header>
-								<a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="#" class="button large">Full Story</a></li>
-								</ul>
-							</article>
+        <section id="resume" class="py-7">
+            <div class="container">
+                <div class="resume-content">
+                    <div class="title">
+                        <h2>Resume</h2>
+                    </div>
+                    <div class="resume-pdf">
+                        <!-- Insert link to your resume PDF file -->
+                        <a href="assets/resume.pdf" target="_blank">View my resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<!-- <span class="date">April 24, 2017</span> -->
-										<h2><a href="#">IT'S<br />
-										ME</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-									<p> #welivinglife </p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<!-- <span class="date">April 22, 2017</span> -->
-										<h2><a href="#">Golden Gate Bridge<br />
-										California</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>The Golden Gate Bridge is an iconic suspension bridge located in San Francisco,
-										California. It spans 1.7 miles across the Golden Gate Strait, connecting the 
-										city to Marin County. Completed in 1937, the bridge's distinctive orange color 
-										and graceful design have made it one of the most recognizable landmarks in the world.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<!-- <span class="date">April 18, 2017</span> -->
-										<h2><a href="#">Work Of<br />
-										</a>ART</h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Car photography is a specialized genre of photography that focuses on capturing the beauty and
-										elegance of automobiles. It involves using different techniques such as lighting, composition, 
-										and angles to create stunning images that showcase the car's design, details, and personality. 
-										Car photographers often use a variety of equipment, such as high-end cameras, lenses, and lighting tools, 
-										to capture the car's unique features and highlight its sleek lines and curves. Successful car photography 
-										requires creativity, attention to detail, and a deep understanding of the car industry and the art of photography.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<!-- <span class="date">April 14, 2017</span> -->
-										<h2><a href="#">Cars and Coffee<br />
-										Phoenix, Arizona </a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Cars and Coffee is a popular informal gathering where car enthusiasts meet to show off their cars,
-										chat with other enthusiasts, and enjoy coffee. These events typically take place in parking lots or
-										other outdoor locations, and feature a wide range of cars, from classic muscle cars to modern supercars.
-										Participants often take pride in their vehicles' unique features and modifications, and share their knowledge
-										and experiences with others. Cars and Coffee gatherings have become a popular way for car enthusiasts to connect 
-										and share their passion for cars.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<!-- <span class="date">April 11, 2017</span> -->
-										<h2><a href="#">Fire Falls<br />
-										Yosemite National Park</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-									<p>Fire falls were a natural phenomenon that occurred in Yosemite National Park's famous
-										Glacier Point during the late 1800s and early 1900s. It involved pushing burning 
-										embers off the edge of the cliff, creating a stunning visual effect resembling a waterfall 
-										of fire cascading down the granite wall. The tradition stopped in 1968 due to environmental 
-										concerns, but the memory of this mesmerizing display of nature continues to capture the 
-										imaginations of visitors to the park to this day.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<!-- <span class="date">April 7, 2017</span> -->
-										<h2><a href="#">Buffalo Park<br />
-										Flagstaff</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-									<p>Buffalo Park is a public park located in Flagstaff, Arizona. It covers over 200 acres of land and 
-										is home to various wildlife, including a herd of buffalo that can be seen grazing in the fields. 
-										The park offers hiking trails, picnic areas, and a playground for families to enjoy. Visitors can 
-										also enjoy the beautiful views of the San Francisco Peaks and the surrounding forests. Buffalo Park 
-										is a popular destination for locals and tourists alike who enjoy nature and outdoor activities.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-							</section>
+        <!-- portfolio section -->
+        <section id = "portfolio" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>my recent clicks</h2>
+                        <a href = "#contact" class = "btn-down">
+                            <i class = "fas fa-chevron-down"></i>
+                        </a>
+                    </div>
 
-						<!-- Footer -->
-							<footer>
-								<!-- <div class="pagination"> -->
-									<!--<a href="#" class="previous">Prev</a>-->
-									<!-- <a href="#" class="page active">1</a>
-									<a href="#" class="page">2</a>
-									<a href="#" class="page">3</a>
-									<span class="extra">&hellip;</span>
-									<a href="#" class="page">8</a>
-									<a href="#" class="page">9</a>
-									<a href="#" class="page">10</a>
-									<a href="#" class="next">Next</a> -->
-								<!-- </div> -->
-							</footer>
+                    <div class = "portfolio-grid grid">
+                        <div><img src = "images/port-1.jpg"></div>
+                        <div><img src = "images/port-2.jpg"></div>
+                        <div><img src = "images/port-3.jpg"></div>
+                        <div><img src = "images/port-4.jpg"></div>
+                        <div><img src = "images/port-5.jpg"></div>
+                        <div><img src = "images/port-6.jpg"></div>
+                        <div><img src = "images/port-7.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of portfolio section -->
 
-					</div>
+        <!-- contact section -->
+        <section id = "contact" class = "py-7">
+            <div class = "container">
+                <div class = "contact-content flex">
+                    <div class = "contact-left">
+                        <div class="title">
+                            <h2>contact me</h2>
+                        </div>
+                        <!-- <p class = "lead"><i class = "fas fa-phone-alt"></i> +1 (520) 491-0441</p> -->
+                        <p class = "lead"><i class = "fas fa-envelope"></i> avnishkumarsinha69@gmail.com</p>
+                        <p class = "lead"><i class = "fas fa-map-marker"></i> United States</p>
+                    </div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>Flagstaff,<br />
-								AZ</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(520) 491-0441</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">avnishkumarsinha69@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://www.linkedin.com/in/avnishkumarsinha/" class="icon brands fa-linkedin"><span class="label">linkedin</span></a></li>
-									<li><a href="https://www.facebook.com/avnishkumar.sinha.731/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="https://www.instagram.com/avnish_7742/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="https://github.com/avnishsinha" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+                    <div class = "contact-right">
+                        <img src = "images/contact-pic.jpg" alt = "contact image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of contact section -->
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Coming: <a href="https://html5up.net">Soon</a></li></ul>
-					</div>
+        <!-- instagram section -->
+        <section id = "insta" class = "py-7">
+            <div class = "container">
+                <div class = "insta-content">
+                    <div class = "title">
+                        <h2>instagram</h2>
+                        <a href = "#footer" class = "btn-down btn-down-white">
+                            <i class = "fas fa-chevron-down"></i>
+                        </a>
+                    </div>
+                    <div class = "insta-grid grid">
+                        <div><img src = "images/port-1.jpg"></div>
+                        <div><img src = "images/port-2.jpg"></div>
+                        <div><img src = "images/port-3.jpg"></div>
+                        <div><img src = "images/port-4.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of instagram section -->
+    </main>
+    <!-- end of main content -->
 
-			</div>
+    <!-- footer -->
+    <footer id = "footer" class = "py-7">
+        <div class = "container">
+            <div class = "footer-content">
+                <div>
+                    <h3>AVNISH KUMAR SINHA</h3>
+                    <div><img src = "images/about-pic.jpg"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/custom.js"></script>
-			<script src="assets/js/main.js"></script>
 
-	</body>
+    <!-- typewriting js -->
+    <script src = "typewriting-master/typewriting.js"></script>
+    <script src="js/script.js"></script>
+</body>
 </html>
