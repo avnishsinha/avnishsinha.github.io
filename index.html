@@ -171,6 +171,7 @@
                 </div>
             </div>
         </section>
+
         <!-- end of portfolio section -->
 
         <!-- <section id = "photography" class = "vh-100 py-7">
@@ -223,7 +224,7 @@
             <div class = "container">
                 <div class = "portfolio-content">
                     <div class = "title">
-                        <h2>Carss</h2>
+                        <h2>Cars</h2>
                         <a href = "#contact" class = "btn-down">
                             <i class = "fas fa-chevron-down"></i>
                         </a>
@@ -316,6 +317,34 @@
                 <div>
                     <h3>AVNISH KUMAR SINHA</h3>
                     <div><img src = "images/about-pic.jpg"></div>
+                    <h1>Time Since My Birthday</h1>
+                    <p id="timeSinceBirthday"></p>
+                
+                    <script>
+                        
+                        function getTimeSinceBirthday() {
+                            var birthday = new Date('2001-07-03');
+                            var now = new Date();
+                
+                            var timeDiff = now - birthday;
+                            var millisecondsInSecond = 1000;
+                            var secondsInMinute = 60;
+                            var minutesInHour = 60;
+                            var hoursInDay = 24;
+                            var daysInYear = 365.25;
+                
+                            var years = timeDiff / (millisecondsInSecond * secondsInMinute * minutesInHour * hoursInDay * daysInYear);
+                            var days = (years - Math.floor(years)) * daysInYear;
+                
+                            years = Math.floor(years);
+                            days = Math.floor(days);
+                
+                            return "I am " + years + " years and " + days + " days old!";
+                        }
+                
+                        var timeSinceBirthdayElement = document.getElementById("timeSinceBirthday");
+                        timeSinceBirthdayElement.innerHTML = getTimeSinceBirthday();
+                    </script>
                 </div>
             </div>
         </div>
