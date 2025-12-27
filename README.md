@@ -1,41 +1,16 @@
 
-# 🚀 Avnish Kumar Sinha — Portfolio
+# Avnish Sinha — Portfolio
 
-Welcome to my digital playground! This is my personal portfolio and little bit of photography site, built for speed, style, and simplicity.
+Welcome to my personal portfolio website! Here you'll find my projects, work, and interests in computer science, web development, and technology.
 
-🌐 **Live:** [avnishsinha.github.io](https://avnishsinha.github.io/)
-
----
-
-## ✨ Highlights
-
-- Modern, glassy UI & smooth animations
-- Fully responsive (mobile-first)
-- Fast, minimal, and accessible
-- Built with HTML, CSS (SASS), and vanilla JS
+- 💻 Computer Science Student & Developer
+- 🚀 Building web apps, exploring AI, and sharing open source code
+- 🌐 [GitHub](https://github.com/avnishsinha)
 
 ---
 
-## � Structure
+Feel free to check out my work and connect with me!
 
-```
-index.html         # Main site
-assets/            # CSS, JS, fonts, resume
-images/            # Portfolio & UI images
-css/               # Compiled styles
-js/                # Main scripts
-README.md, LICENSE.txt
-```
+## License
 
----
-
-## � Contact
-
-- Email: [aks526@nau.edu](mailto:aks526@nau.edu)
-- LinkedIn: [linkedin.com/in/avnishkumarsinha](https://www.linkedin.com/in/avnishkumarsinha/)
-- Instagram: [@avnish_7742](https://www.instagram.com/avnish_7742/)
-- GitHub: [github.com/avnishsinha](https://github.com/avnishsinha)
-
----
-
-<sub>Made with ❤️ by Avnish Kumar Sinha</sub>
+[MIT](LICENSE)

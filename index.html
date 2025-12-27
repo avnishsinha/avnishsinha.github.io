@@ -1,385 +1,283 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Avnish Kumar Sinha - Photographer, Gamer, and Front-end Developer. Explore my portfolio of photography, tech projects, and creative work.">
-    <meta name="keywords" content="photography, front-end development, web developer, photographer, gaming, tech, portfolio">
-    <meta name="author" content="Avnish Kumar Sinha">
-    <title>#We Living Life | Avnish Sinha</title>
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="images/about-pic.jpg">
-    
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-    <nav class="navbar" aria-label="Main Navigation">
-        <div class="nav-container">
-            <button class="hamburger" id="hamburger" aria-label="Open menu" onclick="toggleMenu()">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </button>
-            <ul class="nav-menu" id="nav-menu">
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#tech">Tech</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-      
-    
-    <!-- header -->
-    <header id="header" class="hero-section vh-100 flex">
-        <div class="container">
-            <div class="header-content">
-                <h1 class="hero-title">Avnish Kumar Sinha</h1>
-                <p class="hero-tagline">Photographer. Developer. Creator.</p>
-                <div class="hero-roles">
-                    <span class="typewrite" data-loop="yes" data-speed="100" data-delay="500" data-words='["Photography", "Tech", "Design"]'></span>
-                </div>
-                <ul class="social-links">
-                    <li><a href="https://www.linkedin.com/in/avnishkumarsinha/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a href="https://github.com/avnishsinha" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
-                    <li><a href="https://www.instagram.com/avnish_7742/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="https://www.facebook.com/avnishkumar.sinha.731/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                </ul>
-                <a href="https://drive.google.com/file/d/1m57glPs4vIWO6xEEMnL8XjHHo5NObtgU/view?usp=sharing" target="_blank" rel="noopener" class="custom-button">Resume</a>
-            </div>
-        </div>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>On-Scroll Text Motion | Codrops</title>
+    <meta name="description" content="On-scroll animations for typogrphic elements with GSAP" />
+    <meta name="keywords" content="gsap, on-scroll, scroll based text animation, typgrahy, kinetic typography" />
+    <meta name="author" content="Codrops" />
+    <link rel="icon" type="image/svg+xml" href="https://tympanus.net/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="https://tympanus.net/favicon/favicon.ico" />
+    <link rel="stylesheet" href="https://use.typekit.net/upd0woi.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <script>
+      document.documentElement.className = 'js';
+    </script>
+  </head>
+  <body class="demo-1">
+    <header class="frame">
+      <h1 class="frame__title">
+        Check out more of my worn on
+        <a href="https://www.instagram.com/avnish_7742/">@avnish_7742</a>
+      </h1>
+      <a class="frame__archive" href="https://drive.google.com/file/d/1m57glPs4vIWO6xEEMnL8XjHHo5NObtgU/view?usp=sharing">Resume</a>
+      <a class="frame__github" href="https://github.com/avnishsinha">GitHub</a>
     </header>
-    <!-- end of header -->
-
-    <!-- main content -->
-    <main>
-        <!-- about section -->
-        <section id="about" class="about py-7">
-            <div class="container">
-                <div class="about-content grid">
-                    <div class="about-left">
-                        <img src="images/about-pic.jpg" alt="Avnish Kumar Sinha portrait" />
-                    </div>
-                    <div class="about-right">
-                        <div class="title"><h2>About</h2></div>
-                        <p class="lead">Building digital experiences. Capturing moments. Always learning, always creating.</p>
-                        <a href="#work" class="btn-down" aria-label="Scroll to Work"><i class="fas fa-chevron-down"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end of about section -->
-
-        <!-- work section -->
-        <section id="work" class="vh-100 flex py-7">
-            <div class="container">
-                <div class="work-content">
-                    <div class="title"><h2>What I Do</h2></div>
-                    <div class="work-cards-grid">
-                        <div class="work-card">
-                            <div class="work-card-icon"><i class="fas fa-laptop-code"></i></div>
-                            <div class="work-card-title">Tech Explorer</div>
-                            <div class="work-card-desc">Building, breaking, and learning new tech every day.</div>
-                        </div>
-                        <div class="work-card">
-                            <div class="work-card-icon"><i class="fas fa-camera-retro"></i></div>
-                            <div class="work-card-title">Visual Storyteller</div>
-                            <div class="work-card-desc">Capturing moments and telling stories through the lens.</div>
-                        </div>
-                        <div class="work-card">
-                            <div class="work-card-icon"><i class="fas fa-paint-brush"></i></div>
-                            <div class="work-card-title">UI/UX Builder</div>
-                            <div class="work-card-desc">Designing clean, modern, and intuitive interfaces.</div>
-                        </div>
-                        <div class="work-card">
-                            <div class="work-card-icon"><i class="fas fa-gamepad"></i></div>
-                            <div class="work-card-title">Gamer</div>
-                            <div class="work-card-desc">Leveling up in digital worlds and real life.</div>
-                        </div>
-                    </div>
-                    <a href="#portfolio" class="btn-down btn-down-white" aria-label="Scroll to Portfolio"><i class="fas fa-chevron-down"></i></a>
-                </div>
-            </div>
-        </section>
-        <!-- end of work section -->
-
-        <!-- <section id="resume" class="py-7">
-            <div class="container">
-                <div class="resume-content">
-                    <div class="title">
-                        <h2>Resume</h2>
-                    </div>
-                    <div class="resume-pdf">
-                        <a href="assets/resume.pdf" target="_blank">View my resume</a>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-        <!-- portfolio section -->
-        <section id = "portfolio" class = "vh-100 py-7">
-            <div class = "container">
-                <div class = "portfolio-content">
-                    <div class = "title">
-                        <h2>my recent clicks</h2>
-                    </div>
-
-                    <div class = "portfolio-grid">
-                        <div><img src = "images/port-1.jpg" alt="Photography Portfolio Image 1"></div>
-                        <div><img src = "images/port-2.jpg" alt="Photography Portfolio Image 2"></div>
-                        <div><img src = "images/port-3.jpg" alt="Photography Portfolio Image 3"></div>
-                        <div><img src = "images/port-4.jpg" alt="Photography Portfolio Image 4"></div>
-                        <div><img src = "images/port-5.jpg" alt="Photography Portfolio Image 5"></div>
-                        <div><img src = "images/port-6.jpg" alt="Photography Portfolio Image 6"></div>
-                        <div><img src = "images/port-7.jpg" alt="Photography Portfolio Image 7"></div>
-                    </div>
-
-                    <a href = "#tech" class = "btn-down">
-                        <i class = "fas fa-chevron-down"></i>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- end of portfolio section -->
-
-        <!-- <section id = "photography" class = "vh-100 py-7">
-            <div class = "container">
-                <div class = "portfolio-content">
-                    <div class = "title">
-                        <h2>Photography</h2>
-                        <a href = "#contact" class = "btn-down">
-                            <i class = "fas fa-chevron-down"></i>
-                        </a>
-                    </div>
-
-                    <div class = "portfolio-grid grid">
-                        <div><img src = "images/port-1.jpg"></div>
-                        <div><img src = "images/port-2.jpg"></div>
-                        <div><img src = "images/port-3.jpg"></div>
-                        <div><img src = "images/port-4.jpg"></div>
-                        <div><img src = "images/port-5.jpg"></div>
-                        <div><img src = "images/port-6.jpg"></div>
-                        <div><img src = "images/port-7.jpg"></div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-        <section id = "tech" class = "vh-100 py-7">
-            <div class = "container">
-                <div class = "tech-content">
-                    <div class = "title">
-                        <h2>Technologies & Skills</h2>
-                    </div>
-
-                    <div class = "tech-grid">
-                        <div class="tech-item">
-                            <div class="tech-icon">
-                                <i class="fab fa-js-square"></i>
-                            </div>
-                            <h4>JavaScript</h4>
-                            <p>Modern web development</p>
-                        </div>
-                        <div class="tech-item">
-                            <div class="tech-icon">
-                                <i class="fab fa-react"></i>
-                            </div>
-                            <h4>React</h4>
-                            <p>Dynamic UIs</p>
-                        </div>
-                        <div class="tech-item">
-                            <div class="tech-icon">
-                                <i class="fab fa-html5"></i>
-                            </div>
-                            <h4>HTML5</h4>
-                            <p>Semantic markup</p>
-                        </div>
-                        <div class="tech-item">
-                            <div class="tech-icon">
-                                <i class="fab fa-css3-alt"></i>
-                            </div>
-                            <h4>CSS3</h4>
-                            <p>Responsive design</p>
-                        </div>
-                        <div class="tech-item">
-                            <div class="tech-icon">
-                                <i class="fab fa-python"></i>
-                            </div>
-                            <h4>Python</h4>
-                            <p>Data & web</p>
-                        </div>
-                        <div class="tech-item">
-                            <div class="tech-icon">
-                                <i class="fab fa-git-alt"></i>
-                            </div>
-                            <h4>Git</h4>
-                            <p>Version control</p>
-                        </div>
-                        <div class="tech-item">
-                            <div class="tech-icon">
-                                <i class="fas fa-camera"></i>
-                            </div>
-                            <h4>Photography</h4>
-                            <p>Photo & editing</p>
-                        </div>
-                        <div class="tech-item">
-                            <div class="tech-icon">
-                                <i class="fas fa-gamepad"></i>
-                            </div>
-                            <h4>Gaming</h4>
-                            <p>Games & interaction</p>
-                        </div>
-                    </div>
-
-                    <a href = "#contact" class = "btn-down">
-                        <i class = "fas fa-chevron-down"></i>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!-- <section id = "cars" class = "vh-100 py-7">
-            <div class = "container">
-                <div class = "portfolio-content">
-                    <div class = "title">
-                        <h2>Cars</h2>
-                        <a href = "#contact" class = "btn-down">
-                            <i class = "fas fa-chevron-down"></i>
-                        </a>
-                    </div>
-
-                    <div class = "portfolio-grid grid">
-                        <div><img src = "images/port-1.jpg"></div>
-                        <div><img src = "images/port-2.jpg"></div>
-                        <div><img src = "images/port-3.jpg"></div>
-                        <div><img src = "images/port-4.jpg"></div>
-                        <div><img src = "images/port-5.jpg"></div>
-                        <div><img src = "images/port-6.jpg"></div>
-                        <div><img src = "images/port-7.jpg"></div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-        <!-- <section id = "dev" class = "vh-100 py-7">
-            <div class = "container">
-                <div class = "portfolio-content">
-                    <div class = "title">
-                        <h2>Dev</h2>
-                        <a href = "#contact" class = "btn-down">
-                            <i class = "fas fa-chevron-down"></i>
-                        </a>
-                    </div>
-
-                    <div class = "portfolio-grid grid">
-                        <div><img src = "images/port-1.jpg"></div>
-                        <div><img src = "images/port-2.jpg"></div>
-                        <div><img src = "images/port-3.jpg"></div>
-                        <div><img src = "images/port-4.jpg"></div>
-                        <div><img src = "images/port-5.jpg"></div>
-                        <div><img src = "images/port-6.jpg"></div>
-                        <div><img src = "images/port-7.jpg"></div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-
-        <!-- contact section -->
-        <section id = "contact" class = "py-7">
-            <div class = "container">
-                <div class = "contact-content">
-                    <div class = "contact-left">
-                        <div class="title">
-                            <h2>contact me</h2>
-                        </div>
-                        <p class = "lead"><i class = "fas fa-envelope"></i> aks526@nau.edu</p>
-                        <p class = "lead"><i class = "fas fa-map-marker-alt"></i> Arizona, USA</p>
-                    </div>
-
-                    <div class = "contact-right">
-                        <img src = "images/contact-pic.jpg" alt = "Contact Avnish Kumar Sinha">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end of contact section -->
-
-        <!-- instagram section -->
-        <section id = "insta" class = "py-7">
-            <div class = "container">
-                <div class = "insta-content">
-                    <div class = "title">
-                        <h2>instagram</h2>
-                        <a href = "#footer" class = "btn-down btn-down-white">
-                            <i class = "fas fa-chevron-down"></i>
-                        </a>
-                    </div>
-                    <div class = "insta-grid">
-                        <div><img src = "images/port-1.jpg" alt="Instagram Post 1"></div>
-                        <div><img src = "images/port-2.jpg" alt="Instagram Post 2"></div>
-                        <div><img src = "images/port-3.jpg" alt="Instagram Post 3"></div>
-                        <div><img src = "images/port-4.jpg" alt="Instagram Post 4"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end of instagram section -->
-    </main>
-    <!-- end of main content -->
-
-    <!-- footer -->
-    <footer id = "footer" class = "py-7">
-        <div class = "container">
-            <div class = "footer-content">
-                <div>
-                    <h3>AVNISH KUMAR SINHA</h3>
-                    <div><img src = "images/about-pic.jpg"></div>
-                    <h1>Time Since My Birthday</h1>
-                    <p id="timeSinceBirthday"></p>
-                
-                    <script>
-                        
-                        function getTimeSinceBirthday() {
-                            var birthday = new Date('2001-07-03');
-                            var now = new Date();
-                
-                            var timeDiff = now - birthday;
-                            var millisecondsInSecond = 1000;
-                            var secondsInMinute = 60;
-                            var minutesInHour = 60;
-                            var hoursInDay = 24;
-                            var daysInYear = 365.25;
-                
-                            var years = timeDiff / (millisecondsInSecond * secondsInMinute * minutesInHour * hoursInDay * daysInYear);
-                            var days = (years - Math.floor(years)) * daysInYear;
-                
-                            years = Math.floor(years);
-                            days = Math.floor(days);
-                
-                            return "I am " + years + " years and " + days + " days old!";
-                        }
-                
-                        var timeSinceBirthdayElement = document.getElementById("timeSinceBirthday");
-                        timeSinceBirthdayElement.innerHTML = getTimeSinceBirthday();
-                    </script>
-                </div>
-            </div>
+    <div class="logo fixed">
+  <span class="logo-tagline">Just Another Young, Unknown Backbencher</span>
+  <br />
+  <span class="logo-name">Avnish Kumar Sinha</span>
+    </div>
+    <main id="smooth-content">
+      <div class="content">
+        <div class="group">
+          <div class="el pos-4" data-alt-pos="pos-2">Algorithm</div>
+          <div class="el pos-4" data-alt-pos="pos-2">Frontend</div>
+          <div class="el pos-4" data-alt-pos="pos-2">Backend</div>
         </div>
-    </footer>
-    <!-- end of footer -->
 
+        <div class="group">
+          <div class="el pos-1" data-alt-pos="pos-3">Machine Learning</div>
+          <div class="el pos-1" data-alt-pos="pos-3">Open Source</div>
+          <div class="el pos-1" data-alt-pos="pos-3">Data Science</div>
+          <div class="el pos-1" data-alt-pos="pos-3">AI Projects</div>
+          <div class="el pos-1" data-alt-pos="pos-3">Cloud Native</div>
+        </div>
 
-    <!-- Scripts -->
-    <script src="js/script.js"></script>
-</body>
+        <div class="group">
+          <div class="el el--xl pos-1" data-alt-pos="pos-2" data-scramble-duration="2.5">M</div>
+        </div>
+
+        <div class="group">
+          <div class="el pos-1" data-alt-pos="pos-3" data-scramble-duration="0">アクセス権限がありません</div>
+          <div class="el pos-1 typing-indicator" data-alt-pos="pos-3" data-scramble-duration="0">█</div>
+        </div>
+
+        <div class="group">
+          <div class="el pos-2" data-alt-pos="pos-5">JavaScript</div>
+          <div class="el pos-2" data-alt-pos="pos-5">Python</div>
+          <div class="el pos-2" data-alt-pos="pos-5">TypeScript</div>
+        </div>
+
+        <div class="group">
+          <div class="el el--xl pos-3" data-alt-pos="pos-9" data-scramble-duration="2.5">S</div>
+        </div>
+
+        <div class="group">
+          <div class="el pos-3" data-alt-pos="pos-2">Portfolio</div>
+          <div class="el pos-3" data-alt-pos="pos-2">Projects</div>
+          <div class="el pos-3" data-alt-pos="pos-2">Web Apps</div>
+          <div class="el pos-3" data-alt-pos="pos-2">UI/UX</div>
+        </div>
+
+        <div class="group">
+          <div class="el pos-1" data-alt-pos="pos-3" data-scramble-duration="0">操作は許可されていません</div>
+          <div class="el pos-1 typing-indicator" data-alt-pos="pos-3" data-scramble-duration="0">█</div>
+        </div>
+
+        <div class="group">
+          <div class="el pos-2" data-alt-pos="pos-4">APIs</div>
+          <div class="el pos-2" data-alt-pos="pos-4">RESTful</div>
+          <div class="el pos-2" data-alt-pos="pos-4">GraphQL</div>
+          <div class="el pos-2" data-alt-pos="pos-4">Automation</div>
+          <div class="el pos-2" data-alt-pos="pos-4">DevOps</div>
+          <div class="el pos-2" data-alt-pos="pos-4">CI/CD</div>
+        </div>
+
+        <div class="group">
+          <div class="el el--xl pos-1" data-alt-pos="pos-3" data-scramble-duration="2.5">A</div>
+        </div>
+
+        <div class="group">
+          <div class="el pos-2" data-alt-pos="pos-9">Cloud</div>
+          <div class="el pos-2" data-alt-pos="pos-9">Docker</div>
+          <div class="el pos-2" data-alt-pos="pos-9">Kubernetes</div>
+          <div class="el pos-2" data-alt-pos="pos-9">AWS</div>
+          <div class="el pos-2" data-alt-pos="pos-9">Azure</div>
+          <div class="el pos-2" data-alt-pos="pos-9">GCP</div>
+        </div>
+
+        <div class="group">
+          <div class="el el--xl pos-3" data-alt-pos="pos-10" data-scramble-duration="2.5" data-flip-ease="expo.in">
+            B
+          </div>
+        </div>
+
+        <div class="group">
+          <div class="el pos-4" data-alt-pos="pos-3">React</div>
+          <div class="el pos-4" data-alt-pos="pos-3">Node.js</div>
+          <div class="el pos-4" data-alt-pos="pos-3">Express</div>
+          <div class="el pos-4" data-alt-pos="pos-3">MongoDB</div>
+        </div>
+
+        <div class="group">
+          <div class="el pos-1" data-alt-pos="pos-3" data-scramble-duration="0">権限が不足しています</div>
+          <div class="el pos-1 typing-indicator" data-alt-pos="pos-3" data-scramble-duration="0">█</div>
+        </div>
+
+        <div class="group">
+          <div class="el pos-3" data-alt-pos="pos-5">Linux</div>
+          <div class="el pos-3" data-alt-pos="pos-5">Shell Scripting</div>
+          <div class="el pos-3" data-alt-pos="pos-5">Git</div>
+          <div class="el pos-3" data-alt-pos="pos-5">Version Control</div>
+        </div>
+
+        <div class="group">
+          <div class="el el--xl pos-2" data-alt-pos="pos-3" data-scramble-duration="2.5" data-scramble-duration="2.5">
+            N
+          </div>
+        </div>
+
+        <div class="group">
+          <div class="el pos-3" data-alt-pos="pos-6">Portfolio Site</div>
+          <div class="el pos-3" data-alt-pos="pos-6">Personal Blog</div>
+          <div class="el pos-3" data-alt-pos="pos-6">Tech Articles</div>
+          <div class="el pos-3" data-alt-pos="pos-6">Contact</div>
+        </div>
+
+        <div class="group">
+          <div class="el pos-2" data-alt-pos="pos-7">Problem Solving</div>
+          <div class="el pos-2" data-alt-pos="pos-7">Competitive Coding</div>
+          <div class="el pos-2" data-alt-pos="pos-7">Hackathons</div>
+          <div class="el pos-2" data-alt-pos="pos-7">Collaboration</div>
+        </div>
+
+        <div class="group">
+          <div class="el pos-3" data-alt-pos="pos-8">Dormant voltage</div>
+          <div class="el pos-3" data-alt-pos="pos-8">Micro relay</div>
+          <div class="el pos-3" data-alt-pos="pos-8">Spectral trace</div>
+          <div class="el pos-3" data-alt-pos="pos-8">Diffuse mapping</div>
+
+          <div class="el pos-3" data-alt-pos="pos-8">Residual energy</div>
+          <div class="el pos-3" data-alt-pos="pos-8">Nano transmitter</div>
+          <div class="el pos-3" data-alt-pos="pos-8">Photon residue</div>
+          <div class="el pos-3" data-alt-pos="pos-8">Soft raster</div>
+
+          <div class="el pos-3" data-alt-pos="pos-8">Stored impulse</div>
+          <div class="el pos-3" data-alt-pos="pos-8">Quantum locator</div>
+          <div class="el pos-3" data-alt-pos="pos-8">Radiant filament</div>
+          <div class="el pos-3" data-alt-pos="pos-8">Light diffusion</div>
+
+          <div class="el pos-3" data-alt-pos="pos-8">Static potential</div>
+          <div class="el pos-3" data-alt-pos="pos-8">Signal node</div>
+          <div class="el pos-3" data-alt-pos="pos-8">Energy wake</div>
+          <div class="el pos-3" data-alt-pos="pos-8">Blurred output</div>
+
+          <div class="el pos-3" data-alt-pos="pos-8">Hidden current</div>
+          <div class="el pos-3" data-alt-pos="pos-8">Data beacon</div>
+          <div class="el pos-3" data-alt-pos="pos-8">Lumen echo</div>
+          <div class="el pos-3" data-alt-pos="pos-8">Soft synthesis</div>
+
+          <div class="el pos-3" data-alt-pos="pos-8">Quantum latency</div>
+          <div class="el pos-3" data-alt-pos="pos-8">Neural marker</div>
+          <div class="el pos-3" data-alt-pos="pos-8">Optic trail</div>
+          <div class="el pos-3" data-alt-pos="pos-8">Diffuse signal</div>
+        </div>
+
+        <div class="group">
+          <div class="el pos-1" data-alt-pos="pos-1">Debugging</div>
+          <div class="el pos-1" data-alt-pos="pos-2">Testing</div>
+          <div class="el pos-1" data-alt-pos="pos-4">Documentation</div>
+          <div class="el pos-1" data-alt-pos="pos-5">Learning</div>
+          <div class="el pos-1" data-alt-pos="pos-6">Growth</div>
+          <div class="el pos-1" data-alt-pos="pos-4">Community</div>
+        </div>
+      </div>
+      <section class="related">
+        <p>You might also like</p>
+        <div class="grid">
+          <a
+            class="grid__item"
+            href="https://tympanus.net/Development/LineTextHoverAnimations/index.html"
+            target="_blank"
+          >
+            <div
+              class="grid__item-img"
+              style="
+                background-image: url(https://tympanus.net/codrops/wp-content/uploads/2024/06/terminalhover_feat.jpg);
+              "
+            ></div>
+            <h3 class="grid__item-title">Hover Animations for Terminal-like Typography</h3>
+          </a>
+
+          <a class="grid__item" href="https://tympanus.net/Development/ScrollBlurTypography/" target="_blank">
+            <div
+              class="grid__item-img"
+              style="
+                background-image: url(https://tympanus.net/codrops/wp-content/uploads/2024/04/blurrytext_featured.jpg);
+              "
+            ></div>
+            <h3 class="grid__item-title">Blurry Text Reveal on Scroll</h3>
+          </a>
+
+          <a class="grid__item" href="https://tympanus.net/Development/OnScrollTextHighlight/" target="_blank">
+            <div
+              class="grid__item-img"
+              style="background-image: url(https://tympanus.net/codrops/wp-content/uploads/2024/04/TextHighlight.jpg)"
+            ></div>
+            <h3 class="grid__item-title">Some On-Scroll Text Highlight Animations</h3>
+          </a>
+
+          <a class="grid__item" href="https://tympanus.net/Development/ImageExpansionTypography/" target="_blank">
+            <div
+              class="grid__item-img"
+              style="
+                background-image: url(https://tympanus.net/codrops/wp-content/uploads/2024/04/expandimage_feat.jpg);
+              "
+            ></div>
+            <h3 class="grid__item-title">On-Scroll Expanding Image Animation within Typography</h3>
+          </a>
+
+          <a class="grid__item" href="https://tympanus.net/Development/TextBlockTransitions/index.html" target="_blank">
+            <div
+              class="grid__item-img"
+              style="
+                background-image: url(https://tympanus.net/codrops/wp-content/uploads/2023/07/textbocktransitions.jpg);
+              "
+            ></div>
+            <h3 class="grid__item-title">Inspiration for Text Block Transitions</h3>
+          </a>
+
+          <a class="grid__item" href="https://tympanus.net/Development/TypeShuffleAnimation/" target="_blank">
+            <div
+              class="grid__item-img"
+              style="background-image: url(https://tympanus.net/codrops/wp-content/uploads/2023/02/typeshuffle.jpg)"
+            ></div>
+            <h3 class="grid__item-title">Shuffling Typography Animation</h3>
+          </a>
+
+          <a class="grid__item" href="https://tympanus.net/Development/TextRepetitionEffect/index.html" target="_blank">
+            <div
+              class="grid__item-img"
+              style="background-image: url(https://tympanus.net/codrops/wp-content/uploads/2022/04/TextRep_feat.jpg)"
+            ></div>
+            <h3 class="grid__item-title">On-Scroll Text Repetition Animation</h3>
+          </a>
+
+          <a class="grid__item" href="https://tympanus.net/Development/KineticTypePageTransition/" target="_blank">
+            <div
+              class="grid__item-img"
+              style="
+                background-image: url(https://tympanus.net/codrops/wp-content/uploads/2021/09/KineticTypePageTransition_featured.jpg);
+              "
+            ></div>
+            <h3 class="grid__item-title">Kinetic Typography Page Transition</h3>
+          </a>
+        </div>
+      </section>
+    </main>
+    <!-- GSAP library -->
+    <script src="js/gsap.min.js"></script>
+    <!-- GSAP ScrollTrigger plugin -->
+    <script src="js/ScrollTrigger.min.js"></script>
+    <!-- GSAP ScrollSmoother plugin -->
+    <script src="js/ScrollSmoother.min.js"></script>
+    <!-- GSAP Flip plugin -->
+    <script src="js/Flip.min.js"></script>
+    <!-- GSAP Flip plugin -->
+    <script src="js/ScrambleTextPlugin.min.js"></script>
+    <!-- Scripts for the effect -->
+    <script src="js/index.js"></script>
+  </body>
 </html>
