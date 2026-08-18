@@ -1,0 +1,15 @@
+:root {
+  --color-ink: #f0eee8;
+  --color-muted: #a09e96;
+  --color-dim: #686761;
+  --color-background: #10100f;
+  --color-panel: #171715;
+  --color-line: #34332f;
+  --color-accent: #d6ff63;
+  --font-display: Georgia, 'Times New Roman', serif;
+  --font-body: 'Helvetica Neue', Helvetica, sans-serif;
+  --font-mono: 'Courier New', Courier, monospace;
+  --page-width: 1200px;
+  --page-gutter: clamp(1.25rem, 4vw, 4rem);
+  --space-section: clamp(5rem, 12vw, 10rem);
+}

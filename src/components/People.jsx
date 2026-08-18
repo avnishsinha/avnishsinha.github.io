@@ -1,0 +1,2 @@
+import { photos } from '../data/photos';
+export function People() { return <section className="people section-frame" id="people"><div><div className="section-label">02 / People</div><h2>The best work usually starts with a good room.</h2><p>CalHacks was a reminder that speed, generosity, and a room full of builders can turn a rough idea into a working prototype.</p></div><div className="photo-grid">{photos.map((photo) => <figure key={photo.src}><img src={photo.src} alt={photo.alt} loading="lazy" /><figcaption>{photo.caption}</figcaption></figure>)}</div></section>; }

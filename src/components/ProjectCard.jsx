@@ -1,0 +1,1 @@
+export function ProjectCard({ project, index }) { return <article className="project-card"><span className="project-number">0{index + 1}</span><p className="mono">{project.type}</p><h3>{project.name}</h3><p>{project.description}</p><ul>{project.technologies.map((technology) => <li key={technology}>{technology}</li>)}</ul></article>; }

@@ -1,0 +1,1 @@
+export function ProofStrip() { return <section className="proof-strip section-frame" aria-label="Proof points"><span>NAU / Computer Science</span><span>CANIS LAB / App Developer</span><span>CalHacks 10.0 / Builder</span><span>React · Flutter · Systems</span></section>; }

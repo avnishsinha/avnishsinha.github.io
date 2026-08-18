@@ -1,15 +1,18 @@
 
 # Avnish Sinha — Portfolio
 
-Welcome to my personal portfolio website! Here you'll find my projects, work, and interests in computer science, web development, and technology.
+React and Vite foundation for Avnish Sinha's software engineering portfolio.
 
-- 💻 Computer Science Student & Developer
-- 🚀 Building web apps, exploring AI, and sharing open source code
-- 🌐 [GitHub](https://github.com/avnishsinha)
+## Development
 
----
+```bash
+npm install
+npm run dev
+```
 
-Feel free to check out my work and connect with me!
+Create a production build with `npm run build` and preview it with `npm run preview`.
+
+Portfolio content is kept in `src/data`, while reusable page sections live in `src/components`.
 
 ## License
 

@@ -1,0 +1,3 @@
+import { projects } from '../data/projects';
+import { ProjectCard } from './ProjectCard';
+export function Projects() { return <section className="content-section section-frame" id="projects"><div className="section-label">03 / Selected work</div><div className="section-content"><h2>Applications, experiments, and systems I have taken seriously.</h2><div className="project-grid">{projects.map((project, index) => <ProjectCard key={project.name} project={project} index={index} />)}</div></div></section>; }

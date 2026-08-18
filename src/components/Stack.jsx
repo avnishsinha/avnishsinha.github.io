@@ -1,0 +1,2 @@
+const stack = ['JavaScript', 'React', 'Node.js', 'PostgreSQL', 'Flutter', 'Java', 'Kotlin', 'Python', 'Docker', 'AWS', 'Azure', 'Git'];
+export function Stack() { return <section className="content-section section-frame" id="stack"><div className="section-label">05 / Stack</div><div className="section-content"><h2>Tools are useful when they disappear into the work.</h2><div className="stack-list">{stack.map((item) => <span key={item}>{item}</span>)}</div></div></section>; }

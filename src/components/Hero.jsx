@@ -1,0 +1,3 @@
+export function Hero() {
+  return <section className="hero section-frame" id="top"><p className="eyebrow">Software engineer / builder / Flagstaff → India</p><h1>I build the things<br /><em>worth building.</em></h1><div className="hero-grid"><p className="hero-intro">I am Avnish Sinha, a software engineer who likes hard problems, useful products, and the distance between an idea and something people can actually use.</p><a className="text-link" href="#projects">Explore selected work <span>↘</span></a></div></section>;
+}
