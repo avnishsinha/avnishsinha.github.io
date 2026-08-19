@@ -1,3 +1,7 @@
+import { lazy, Suspense } from 'react';
+
+const InteractiveBadge = lazy(() => import('./InteractiveBadge'));
+
 export function Hero() {
   const titleLines = ['I build the', 'things worth', 'building.'];
 
@@ -13,6 +17,9 @@ export function Hero() {
             </span>
           ))}
         </h1>
+        <Suspense fallback={<div className="badge-stage badge-stage--loading" aria-hidden="true" />}>
+          <InteractiveBadge />
+        </Suspense>
       </div>
       <div className="hero-grid">
         <p className="hero-intro">I am Avnish Sinha. I work across product engineering and research to turn difficult technical problems into useful things people can actually use.</p>
